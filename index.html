@@ -1,0 +1,2992 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webtoon - goctruyentranh</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/font/fontawesome-free-6.5.2-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/responesive.css" />
+  </head>
+  <body>
+    <div class="container-fluid main">
+      <header class="header">
+        <div class="row">
+          <nav class="navbar">
+            <ul class="navbar__list">
+              <img
+                src="./assets/img/logo.png"
+                alt="Logo"
+                class="navbar__logo"
+              />
+              <li class="navbar__item">
+                <a
+                  href="https://www.youtube.com/watch?v=4ZnQur6rewg&list=PL_-VfJajZj0VgpFpEVFzS5Z-lkXtBe-x5&index=78"
+                  class="navbar__item-link"
+                  >Trang chủ</a
+                >
+              </li>
+              <li class="navbar__item">
+                <a href="" class="navbar__item-link">Danh sách</a>
+              </li>
+              <li class="navbar__item">
+                <a href="" class="navbar__item-link">Liên hệ</a>
+              </li>
+            </ul>
+            <ul class="navbar__user hide-on-mobile-tablet">
+              <li class="navbar__user-item">
+                <a href="" class="navbar__user-link">
+                  <svg viewBox="0 0 24 24" class="navbar__user-icon">
+                    <path
+                      d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z"
+                    ></path>
+                  </svg>
+                </a>
+              </li>
+              <li class="navbar__user-item js-info-user">
+                <a href="#" class="navbar__user-link js-img"
+                  ><img src="./assets/img/unnamed.jpg" alt=""
+                /></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <div class="slider">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-12">
+              <div
+                id="carouselExampleIndicators"
+                class="carousel slide"
+                data-ride="carousel"
+              >
+                <ol class="carousel-indicators">
+                  <li
+                    data-target="#carouselExampleIndicators"
+                    data-slide-to="0"
+                    class="active"
+                  ></li>
+                  <li
+                    data-target="#carouselExampleIndicators"
+                    data-slide-to="1"
+                  ></li>
+                  <li
+                    data-target="#carouselExampleIndicators"
+                    data-slide-to="2"
+                  ></li>
+                  <li
+                    data-target="#carouselExampleIndicators"
+                    data-slide-to="3"
+                  ></li>
+                  <li
+                    data-target="#carouselExampleIndicators"
+                    data-slide-to="4"
+                  ></li>
+                  <li
+                    data-target="#carouselExampleIndicators"
+                    data-slide-to="5"
+                  ></li>
+                  <li
+                    data-target="#carouselExampleIndicators"
+                    data-slide-to="6"
+                  ></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="./assets/img/slide/slide_1.jpg"
+                      class="carousel-img"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./assets/img/slide/slide_2.jpg"
+                      class="carousel-img"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./assets/img/slide/slide_3.jpg"
+                      class="carousel-img"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./assets/img/slide/slide_4.jpg"
+                      class="carousel-img"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./assets/img/slide/slide_5.jpg"
+                      class="carousel-img"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./assets/img/slide/slide_6.jpg"
+                      class="carousel-img"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./assets/img/slide/slide_7.jpg"
+                      class="carousel-img"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-target="#carouselExampleIndicators"
+                  data-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-target="#carouselExampleIndicators"
+                  data-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-webtoon">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xl-12">
+              <div class="heading-topic">
+                <div class="heading-title">Cập nhật gần đây</div>
+                <div class="heading-content">
+                  <span>Tất cả</span>
+                  <span>Đã đọc </span>
+                  <hr class="line theme-dark" />
+                </div>
+              </div>
+            </div>
+
+            <!-- row 1 -->
+            <div class="col-xl-2 col-md-3 col-sm-6 gutter">
+              <div class="card">
+                <img
+                  src="./assets/img/content/1.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="views">
+                  <div class="views__user">
+                    <div class="views__icon"></div>
+                    <div class="views__num"></div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <a class="card-text">Học Viện Của Con Trai Quỷ Vương</a>
+                  <div class="card-chap">
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">65</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">64</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-md-3 col-sm-6 gutter">
+              <div class="card">
+                <img
+                  src="./assets/img/content/2.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="views">
+                  <div class="views__user">
+                    <div class="views__icon"></div>
+                    <div class="views__num"></div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <a class="card-text"
+                    >Tiểu Gia Chủ của Tứ Xuyên Đường Gia trở thành Kiếm Thần</a
+                  >
+                  <div class="card-chap">
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">27</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">26</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-md-3 col-sm-6 gutter">
+              <div class="card">
+                <img
+                  src="./assets/img/content/3.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="views">
+                  <div class="views__user">
+                    <div class="views__icon"></div>
+                    <div class="views__num"></div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <a class="card-text">Cao Võ: Hạ Cánh Đến Một Vạn Năm Sau</a>
+                  <div class="card-chap">
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">135</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">134</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-md-3 col-sm-6 gutter">
+              <div class="card">
+                <img
+                  src="./assets/img/content/4.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="views">
+                  <div class="views__user">
+                    <div class="views__icon"></div>
+                    <div class="views__num"></div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <a class="card-text">Nano Ma Thần</a>
+                  <div class="card-chap">
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">215</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">214</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-md-3 col-sm-6 gutter">
+              <div class="card">
+                <img
+                  src="./assets/img/content/5.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="views">
+                  <div class="views__user">
+                    <div class="views__icon"></div>
+                    <div class="views__num"></div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <a class="card-text">Chiến Binh Hồi Quy</a>
+                  <div class="card-chap">
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">36</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">35</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-md-3 col-sm-6 gutter">
+              <div class="card">
+                <img
+                  src="./assets/img/content/6.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="views">
+                  <div class="views__user">
+                    <div class="views__icon"></div>
+                    <div class="views__num"></div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <a class="card-text">Người Chơi Thiết Thụ</a>
+                  <div class="card-chap">
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">47</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">46</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- row 2 -->
+            <div class="col-xl-2 col-md-3 col-sm-6 gutter">
+              <div class="card">
+                <img
+                  src="./assets/img/content/7.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="views">
+                  <div class="views__user">
+                    <div class="views__icon"></div>
+                    <div class="views__num"></div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <a class="card-text">Vạn Tộc Tru Sát!!</a>
+                  <div class="card-chap">
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">65</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">64</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-md-3 col-sm-6 gutter">
+              <div class="card">
+                <img
+                  src="./assets/img/content/8.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="views">
+                  <div class="views__user">
+                    <div class="views__icon"></div>
+                    <div class="views__num"></div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <a class="card-text">Ta Là Chúa Tể Trùng Độc</a>
+                  <div class="card-chap">
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">65</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">64</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-md-3 col-sm-6 gutter">
+              <div class="card">
+                <img
+                  src="./assets/img/content/9.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="views">
+                  <div class="views__user">
+                    <div class="views__icon"></div>
+                    <div class="views__num"></div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <a class="card-text">Người Chơi Trở Lại Sau 10000 Năm</a>
+                  <div class="card-chap">
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">65</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">64</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-md-3 col-sm-6 gutter">
+              <div class="card">
+                <img
+                  src="./assets/img/content/10.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="views">
+                  <div class="views__user">
+                    <div class="views__icon"></div>
+                    <div class="views__num"></div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <a class="card-text">Thần Chiến Tranh Trở Lại Cấp 2</a>
+                  <div class="card-chap">
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">65</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">64</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-md-3 col-sm-6 gutter">
+              <div class="card">
+                <img
+                  src="./assets/img/content/11.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="views">
+                  <div class="views__user">
+                    <div class="views__icon"></div>
+                    <div class="views__num"></div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <a class="card-text">Luân Hồi Đế Vương</a>
+                  <div class="card-chap">
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">65</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">64</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-md-3 col-sm-6 gutter">
+              <div class="card">
+                <img
+                  src="./assets/img/content/12.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="views">
+                  <div class="views__user">
+                    <div class="views__icon"></div>
+                    <div class="views__num"></div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <a class="card-text">Giả Vờ Làm Kẻ Vô Dụng Ở Học Đường</a>
+                  <div class="card-chap">
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">65</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">64</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- row 3 -->
+            <div class="col-xl-2 col-md-3 col-sm-6 gutter">
+              <div class="card">
+                <img
+                  src="./assets/img/content/13.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="views">
+                  <div class="views__user">
+                    <div class="views__icon"></div>
+                    <div class="views__num"></div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <a class="card-text">Kiếm Sĩ Thiên Tài Của Học Viện</a>
+                  <div class="card-chap">
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">65</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">64</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-md-3 col-sm-6 gutter">
+              <div class="card">
+                <img
+                  src="./assets/img/content/14.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="views">
+                  <div class="views__user">
+                    <div class="views__icon"></div>
+                    <div class="views__num"></div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <a class="card-text">Tinh Giáp Hồn Tướng</a>
+                  <div class="card-chap">
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">65</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">64</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-md-3 col-sm-6 gutter">
+              <div class="card">
+                <img
+                  src="./assets/img/content/15.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="views">
+                  <div class="views__user">
+                    <div class="views__icon"></div>
+                    <div class="views__num"></div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <a class="card-text">Hoa sơn phái tái xuất giang hồ</a>
+                  <div class="card-chap">
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">65</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">64</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-md-3 col-sm-6 gutter">
+              <div class="card">
+                <img
+                  src="./assets/img/content/16.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="views">
+                  <div class="views__user">
+                    <div class="views__icon"></div>
+                    <div class="views__num"></div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <a class="card-text">Khuyết nhân</a>
+                  <div class="card-chap">
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">65</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">64</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-md-3 col-sm-6 gutter">
+              <div class="card">
+                <img
+                  src="./assets/img/content/17.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="views">
+                  <div class="views__user">
+                    <div class="views__icon"></div>
+                    <div class="views__num"></div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <a class="card-text">Nhà vô địch Kalli</a>
+                  <div class="card-chap">
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">65</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">64</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-md-3 col-sm-6 gutter">
+              <div class="card">
+                <img
+                  src="./assets/img/content/18.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="views">
+                  <div class="views__user">
+                    <div class="views__icon"></div>
+                    <div class="views__num"></div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <a class="card-text">Thiên phú của ngươi giờ là của ta</a>
+                  <div class="card-chap">
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">65</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">64</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- row 4 -->
+            <div class="col-xl-2 col-md-3 col-sm-6 gutter">
+              <div class="card">
+                <img
+                  src="./assets/img/content/19.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="views">
+                  <div class="views__user">
+                    <div class="views__icon"></div>
+                    <div class="views__num"></div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <a class="card-text">Học Viện Của Con Trai Quỷ Vương</a>
+                  <div class="card-chap">
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">65</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">64</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-md-3 col-sm-6 gutter">
+              <div class="card">
+                <img
+                  src="./assets/img/content/20.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="views">
+                  <div class="views__user">
+                    <div class="views__icon"></div>
+                    <div class="views__num"></div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <a class="card-text">Ta là tà đế</a>
+                  <div class="card-chap">
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">65</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">64</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-md-3 col-sm-6 gutter">
+              <div class="card">
+                <img
+                  src="./assets/img/content/21.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="views">
+                  <div class="views__user">
+                    <div class="views__icon"></div>
+                    <div class="views__num"></div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <a class="card-text">Quái lực loạn thần</a>
+                  <div class="card-chap">
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">65</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">64</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-md-3 col-sm-6 gutter">
+              <div class="card">
+                <img
+                  src="./assets/img/content/22.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="views">
+                  <div class="views__user">
+                    <div class="views__icon"></div>
+                    <div class="views__num"></div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <a class="card-text">Helmut-Đứa trẻ bị lãng quên</a>
+                  <div class="card-chap">
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">65</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">64</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-md-3 col-sm-6 gutter">
+              <div class="card">
+                <img
+                  src="./assets/img/content/23.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="views">
+                  <div class="views__user">
+                    <div class="views__icon"></div>
+                    <div class="views__num"></div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <a class="card-text">Nhà tù vị thành niên</a>
+                  <div class="card-chap">
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">65</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">64</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-md-3 col-sm-6 gutter">
+              <div class="card">
+                <img
+                  src="./assets/img/content/24.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="views">
+                  <div class="views__user">
+                    <div class="views__icon"></div>
+                    <div class="views__num"></div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <a class="card-text">Độc cô tử linh sư</a>
+                  <div class="card-chap">
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">65</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">64</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- row 5 -->
+            <div class="col-xl-2 col-md-3 col-sm-6 gutter">
+              <div class="card">
+                <img
+                  src="./assets/img/content/25.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="views">
+                  <div class="views__user">
+                    <div class="views__icon"></div>
+                    <div class="views__num"></div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <a class="card-text">Thánh Khư</a>
+                  <div class="card-chap">
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">65</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">64</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-md-3 col-sm-6 gutter">
+              <div class="card">
+                <img
+                  src="./assets/img/content/26.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="views">
+                  <div class="views__user">
+                    <div class="views__icon"></div>
+                    <div class="views__num"></div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <a class="card-text">Sống sót ngày tận thế</a>
+                  <div class="card-chap">
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">65</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">64</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-md-3 col-sm-6 gutter">
+              <div class="card">
+                <img
+                  src="./assets/img/content/27.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="views">
+                  <div class="views__user">
+                    <div class="views__icon"></div>
+                    <div class="views__num"></div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <a class="card-text">Tôi đã giết tuyển thủ học viện</a>
+                  <div class="card-chap">
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">65</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">64</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-md-3 col-sm-6 gutter">
+              <div class="card">
+                <img
+                  src="./assets/img/content/28.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="views">
+                  <div class="views__user">
+                    <div class="views__icon"></div>
+                    <div class="views__num"></div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <a class="card-text">Sát thủ Peter</a>
+                  <div class="card-chap">
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">65</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">64</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-md-3 col-sm-6 gutter">
+              <div class="card">
+                <img
+                  src="./assets/img/content/29.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="views">
+                  <div class="views__user">
+                    <div class="views__icon"></div>
+                    <div class="views__num"></div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <a class="card-text"
+                    >Cậu nhỏ nhà công tước là sát thủ hồi quy</a
+                  >
+                  <div class="card-chap">
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">65</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">64</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-md-3 col-sm-6 gutter">
+              <div class="card">
+                <img
+                  src="./assets/img/content/30.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="views">
+                  <div class="views__user">
+                    <div class="views__icon"></div>
+                    <div class="views__num"></div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <a class="card-text">Hồi quy bằng vương quyền</a>
+                  <div class="card-chap">
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">65</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                    <div class="chapter">
+                      <span class="chapter__logo">
+                        <svg viewBox="0 0 24 24" class="chapter__logo-svg">
+                          <path
+                            d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2M14.5 17.5C14.22 17.74 13.76 18 13.4 18.1C12.28 18.5 11.16 17.94 10.5 17.28C11.69 17 12.4 16.12 12.61 15.23C12.78 14.43 12.46 13.77 12.33 13C12.21 12.26 12.23 11.63 12.5 10.94C12.69 11.32 12.89 11.7 13.13 12C13.9 13 15.11 13.44 15.37 14.8C15.41 14.94 15.43 15.08 15.43 15.23C15.46 16.05 15.1 16.95 14.5 17.5H14.5Z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <div class="chapter__card">
+                        <a href="" class="chapter__num">64</a>
+                        <span class="chapter__time">1 giờ trước</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Footer line heading -->
+            <div class="col-xl-12">
+              <div class="footer-heading">
+                <hr class="line theme-dark" />
+
+                <div class="footer-heading__list">
+                  <span
+                    ><i
+                      class="footer-heading__icon fa-solid fa-chevron-left"
+                    ></i
+                  ></span>
+                  <span
+                    ><i
+                      class="footer-heading__icon fa-solid fa-chevron-right"
+                    ></i
+                  ></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- COMIC PROPOSE -->
+      <div class="container-propose">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xl-12">
+              <div class="heading-topic">
+                <div class="heading-title">Truyện đề xuất</div>
+                <div class="heading-content">
+                  <span>Tất cả</span>
+                  <span>Truyện hay</span>
+                  <hr class="line theme-dark" />
+                </div>
+              </div>
+            </div>
+            <div class="comic-recomment col-xl-12">
+              <div class="row">
+                <div class="col-xl-6 col-md-12">
+                  <div
+                    class="card mb-5"
+                    style="max-width: 576px; height: 168px"
+                  >
+                    <div class="row">
+                      <div class="col-3">
+                        <img
+                          src="./assets/img/recomment/1.jpg"
+                          alt="..."
+                          class="comic-recomment__image"
+                        />
+                      </div>
+                      <div class="col-9">
+                        <div class="comic__body card-body">
+                          <div class="comic__heading card-title text-muted">
+                            <h5 class="comic__chap">306 Chương</h5>
+                            <div class="comic__views">
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-star"></i>
+                                5
+                              </div>
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-eye"></i>
+                                17,467,954
+                              </div>
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-person-walking"></i>
+                                37,089
+                              </div>
+                            </div>
+                          </div>
+                          <h1 class="comic__text">Hoá Thân Thành Mèo</h1>
+                          <div class="comic__tag">
+                            <div class="conmic__tag-list">
+                              <i class="comic__tag-icon fa-solid fa-tag"></i>
+                              <span class="comic__tag-text"> Drama </span>
+                            </div>
+                            <div class="conmic__tag-list">
+                              <i class="comic__tag-icon fa-solid fa-tag"></i>
+                              <span class="comic__tag-text">Học đường</span>
+                            </div>
+                          </div>
+                          <p class="comic__text-clone">
+                            Kaiden - Một người dùng có khả năng bí ẩn ẩn giấu
+                            bên trong cơ thể của một con mèo đường phố. Anh ta
+                            sau đó được Jiwoo nhặt lên sau khi bị thương sau một
+                            trận chiến với người dùng khả năng khác. Anh ta có
+                            một tính cách bướng bỉnh và hách dịch. Jiwoo - một
+                            cậu học sinh trung học năng động và hay nói chuyện,
+                            yêu mèo. Anh ấy rất tốt bụng và dường như cũng có
+                            một khả năng đặc biệt.
+                          </p>
+                        </div>
+                        <div class="comic__button">Đọc truyện</div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- card -->
+                  <div
+                    class="card mb-5"
+                    style="max-width: 576px; height: 168px"
+                  >
+                    <div class="row">
+                      <div class="col-3">
+                        <img
+                          src="./assets/img/recomment/2.jpg"
+                          alt="..."
+                          class="comic-recomment__image"
+                        />
+                      </div>
+                      <div class="col-9">
+                        <div class="comic__body card-body">
+                          <div class="comic__heading card-title text-muted">
+                            <h5 class="comic__chap">215 Chương</h5>
+                            <div class="comic__views">
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-star"></i>
+                                5
+                              </div>
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-eye"></i>
+                                37,774,721
+                              </div>
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-person-walking"></i>
+                                37,089
+                              </div>
+                            </div>
+                          </div>
+                          <h1 class="comic__text">Nano Ma Thần</h1>
+                          <div class="comic__tag">
+                            <div class="conmic__tag-list">
+                              <i class="comic__tag-icon fa-solid fa-tag"></i>
+                              <span class="comic__tag-text"> Manhwa </span>
+                            </div>
+                            <div class="conmic__tag-list">
+                              <i class="comic__tag-icon fa-solid fa-tag"></i>
+                              <span class="comic__tag-text">Võ Thuật</span>
+                            </div>
+                          </div>
+                          <p class="comic__text-clone">
+                            (Nano Machine)Tân bình mới trong làng truyện tranh
+                            Võ hiệp Hàn Quốc, trình làng mới được 3 tuần mà đã
+                            được leo lên Top 3 tìm kiếm trong tuần. Được chuyển
+                            thể từ cuốn siêu tiểu thuyết về võ hiệp viễn tưởng
+                            trên mạng Nano Ma Thần từng gây bão năm 2017. Câu
+                            chuyện về Đệ Nhị Thiên Ma - Thiên Như Vân, người sau
+                            này sẽ viết lên những truyền kỳ bản thân...
+                          </p>
+                        </div>
+                        <div class="comic__button">Đọc truyện</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="card mb-5"
+                    style="max-width: 576px; height: 168px"
+                  >
+                    <div class="row">
+                      <div class="col-3">
+                        <img
+                          src="./assets/img/recomment/3.jpg"
+                          alt="..."
+                          class="comic-recomment__image"
+                        />
+                      </div>
+                      <div class="col-9">
+                        <div class="comic__body card-body">
+                          <div class="comic__heading card-title text-muted">
+                            <h5 class="comic__chap">306 Chương</h5>
+                            <div class="comic__views">
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-star"></i>
+                                5
+                              </div>
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-eye"></i>
+                                17,467,954
+                              </div>
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-person-walking"></i>
+                                37,089
+                              </div>
+                            </div>
+                          </div>
+                          <h1 class="comic__text">
+                            Thăng Cấp Vô Hạn Trong Murim
+                          </h1>
+                          <div class="comic__tag">
+                            <div class="conmic__tag-list">
+                              <i class="comic__tag-icon fa-solid fa-tag"></i>
+                              <span class="comic__tag-text"> Phiêu lưu </span>
+                            </div>
+                            <div class="conmic__tag-list">
+                              <i class="comic__tag-icon fa-solid fa-tag"></i>
+                              <span class="comic__tag-text">Viễn tưởng</span>
+                            </div>
+                          </div>
+                          <p class="comic__text-clone">
+                            Tang Yoo Sung, một chiến binh cấp dưới không có tài
+                            năng hoặc trình độ huấn luyện thấp, đã chết trên
+                            chiến trường. Nhưng khi anh ta mở mắt ra và nghĩ đó
+                            là loại thế giới ngầm nào! Anh trở về quá khứ thời
+                            thơ ấu của mình để thay đổi tương lai! Khoảnh khắc
+                            của cái chết, khoảnh khắc trọng đại nhất của cuộc
+                            đời mà bạn tìm thấy! [Chào mừng bạn đến với Murim
+                            Online, một thế giới phát triển vượt bậc khi bạn
+                            thực hiện sứ mệnh và phấn đấu.] [Bạn có muốn đăng
+                            nhập ngay bây giờ không?] [Có / Không] Nhấp. [hoàn
+                            thành. Vậy thì chúc bạn có một khoảng thời gian vui
+                            vẻ.] Không còn ghen tị với những chiếc thìa vàng!
+                            Bởi vì cuộc sống này có một cái giá nhất định cho sự
+                            chăm chỉ! Nhiệm vụ vô hạn! Lên cấp vô hạn! Nỗ lực vô
+                            tận của thìa đất Murim!
+                          </p>
+                        </div>
+                        <div class="comic__button">Đọc truyện</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="card mb-5"
+                    style="max-width: 576px; height: 168px"
+                  >
+                    <div class="row">
+                      <div class="col-3">
+                        <img
+                          src="./assets/img/recomment/4.jpg"
+                          alt="..."
+                          class="comic-recomment__image"
+                        />
+                      </div>
+                      <div class="col-9">
+                        <div class="comic__body card-body">
+                          <div class="comic__heading card-title text-muted">
+                            <h5 class="comic__chap">306 Chương</h5>
+                            <div class="comic__views">
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-star"></i>
+                                5
+                              </div>
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-eye"></i>
+                                17,467,954
+                              </div>
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-person-walking"></i>
+                                37,089
+                              </div>
+                            </div>
+                          </div>
+                          <h1 class="comic__text">Cuộc Chiến Trong Tòa Tháp</h1>
+                          <div class="comic__tag">
+                            <div class="conmic__tag-list">
+                              <i class="comic__tag-icon fa-solid fa-tag"></i>
+                              <span class="comic__tag-text"> Drama </span>
+                            </div>
+                            <div class="conmic__tag-list">
+                              <i class="comic__tag-icon fa-solid fa-tag"></i>
+                              <span class="comic__tag-text">Học đường</span>
+                            </div>
+                          </div>
+                          <p class="comic__text-clone">
+                            Kaiden - Một người dùng có khả năng bí ẩn ẩn giấu
+                            bên trong cơ thể của một con mèo đường phố. Anh ta
+                            sau đó được Jiwoo nhặt lên sau khi bị thương sau một
+                            trận chiến với người dùng khả năng khác. Anh ta có
+                            một tính cách bướng bỉnh và hách dịch. Jiwoo - một
+                            cậu học sinh trung học năng động và hay nói chuyện,
+                            yêu mèo. Anh ấy rất tốt bụng và dường như cũng có
+                            một khả năng đặc biệt.
+                          </p>
+                        </div>
+                        <div class="comic__button">Đọc truyện</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="card mb-5"
+                    style="max-width: 576px; height: 168px"
+                  >
+                    <div class="row">
+                      <div class="col-3">
+                        <img
+                          src="./assets/img/recomment/5.jpg"
+                          alt="..."
+                          class="comic-recomment__image"
+                        />
+                      </div>
+                      <div class="col-9">
+                        <div class="comic__body card-body">
+                          <div class="comic__heading card-title text-muted">
+                            <h5 class="comic__chap">131 Chương</h5>
+                            <div class="comic__views">
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-star"></i>
+                                5
+                              </div>
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-eye"></i>
+                                17,467,954
+                              </div>
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-person-walking"></i>
+                                37,089
+                              </div>
+                            </div>
+                          </div>
+                          <h1 class="comic__text">
+                            Hoa Sơn Phái Tái Xuất Giang Hồ
+                          </h1>
+                          <div class="comic__tag">
+                            <div class="conmic__tag-list">
+                              <i class="comic__tag-icon fa-solid fa-tag"></i>
+                              <span class="comic__tag-text"> Drama </span>
+                            </div>
+                            <div class="conmic__tag-list">
+                              <i class="comic__tag-icon fa-solid fa-tag"></i>
+                              <span class="comic__tag-text">Học đường</span>
+                            </div>
+                          </div>
+                          <p class="comic__text-clone">
+                            Kaiden - Một người dùng có khả năng bí ẩn ẩn giấu
+                            bên trong cơ thể của một con mèo đường phố. Anh ta
+                            sau đó được Jiwoo nhặt lên sau khi bị thương sau một
+                            trận chiến với người dùng khả năng khác. Anh ta có
+                            một tính cách bướng bỉnh và hách dịch. Jiwoo - một
+                            cậu học sinh trung học năng động và hay nói chuyện,
+                            yêu mèo. Anh ấy rất tốt bụng và dường như cũng có
+                            một khả năng đặc biệt.
+                          </p>
+                        </div>
+                        <div class="comic__button">Đọc truyện</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-6 col-sm-12">
+                  <div
+                    class="card mb-5"
+                    style="max-width: 576px; height: 168px"
+                  >
+                    <div class="row">
+                      <div class="col-3">
+                        <img
+                          src="./assets/img/recomment/6.jpg"
+                          alt="..."
+                          class="comic-recomment__image"
+                        />
+                      </div>
+                      <div class="col-9">
+                        <div class="comic__body card-body">
+                          <div class="comic__heading card-title text-muted">
+                            <h5 class="comic__chap">150 Chương</h5>
+                            <div class="comic__views">
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-star"></i>
+                                5
+                              </div>
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-eye"></i>
+                                17,467,954
+                              </div>
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-person-walking"></i>
+                                37,089
+                              </div>
+                            </div>
+                          </div>
+                          <h1 class="comic__text">Kĩ Sư Bá Nhất Thế Giới</h1>
+                          <div class="comic__tag">
+                            <div class="conmic__tag-list">
+                              <i class="comic__tag-icon fa-solid fa-tag"></i>
+                              <span class="comic__tag-text"> Hành động </span>
+                            </div>
+                            <div class="conmic__tag-list">
+                              <i class="comic__tag-icon fa-solid fa-tag"></i>
+                              <span class="comic__tag-text">Hài hước</span>
+                            </div>
+                          </div>
+                          <p class="comic__text-clone">
+                            Kim Suho, vốn là một kỹ sư xây dựng, đã trở thành
+                            Quý tộc trong một cuốn tiểu thuyết. Vậy thì sao? Bất
+                            động sản của tôi sắp hỏng? Sau đó, nó phải được lưu.
+                            Để thiết kế, xây dựng và bán. Cơ hội đặc biệt được
+                            chờ đợi trên khắp lục địa! Giao thông hoàn hảo, khu
+                            giáo dục cao nhất, khu rừng dễ chịu và một cuộc sống
+                            bất động sản cao cấp một cửa bên Baron Frontera mà
+                            mọi người đã chờ đợi. Một hợp đồng trên cơ sở ai đến
+                            trước phục vụ trước!
+                          </p>
+                        </div>
+                        <div class="comic__button">Đọc truyện</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="card mb-5"
+                    style="max-width: 576px; height: 168px"
+                  >
+                    <div class="row">
+                      <div class="col-3">
+                        <img
+                          src="./assets/img/recomment/7.jpg"
+                          alt="..."
+                          class="comic-recomment__image"
+                        />
+                      </div>
+                      <div class="col-9">
+                        <div class="comic__body card-body">
+                          <div class="comic__heading card-title text-muted">
+                            <h5 class="comic__chap">306 Chương</h5>
+                            <div class="comic__views">
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-star"></i>
+                                5
+                              </div>
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-eye"></i>
+                                17,467,954
+                              </div>
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-person-walking"></i>
+                                37,089
+                              </div>
+                            </div>
+                          </div>
+                          <h1 class="comic__text">Đại Quản Gia Là Ma Hoàng</h1>
+                          <div class="comic__tag">
+                            <div class="conmic__tag-list">
+                              <i class="comic__tag-icon fa-solid fa-tag"></i>
+                              <span class="comic__tag-text"> Drama </span>
+                            </div>
+                            <div class="conmic__tag-list">
+                              <i class="comic__tag-icon fa-solid fa-tag"></i>
+                              <span class="comic__tag-text">Học đường</span>
+                            </div>
+                          </div>
+                          <p class="comic__text-clone">
+                            Kaiden - Một người dùng có khả năng bí ẩn ẩn giấu
+                            bên trong cơ thể của một con mèo đường phố. Anh ta
+                            sau đó được Jiwoo nhặt lên sau khi bị thương sau một
+                            trận chiến với người dùng khả năng khác. Anh ta có
+                            một tính cách bướng bỉnh và hách dịch. Jiwoo - một
+                            cậu học sinh trung học năng động và hay nói chuyện,
+                            yêu mèo. Anh ấy rất tốt bụng và dường như cũng có
+                            một khả năng đặc biệt.
+                          </p>
+                        </div>
+                        <div class="comic__button">Đọc truyện</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="card mb-5"
+                    style="max-width: 576px; height: 168px"
+                  >
+                    <div class="row">
+                      <div class="col-3">
+                        <img
+                          src="./assets/img/recomment/8.jpg"
+                          alt="..."
+                          class="comic-recomment__image"
+                        />
+                      </div>
+                      <div class="col-9">
+                        <div class="comic__body card-body">
+                          <div class="comic__heading card-title text-muted">
+                            <h5 class="comic__chap">306 Chương</h5>
+                            <div class="comic__views">
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-star"></i>
+                                5
+                              </div>
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-eye"></i>
+                                17,467,954
+                              </div>
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-person-walking"></i>
+                                37,089
+                              </div>
+                            </div>
+                          </div>
+                          <h1 class="comic__text">
+                            Phép Thuật Của Người Trùng Sinh Nên Đặc Biệt
+                          </h1>
+                          <div class="comic__tag">
+                            <div class="conmic__tag-list">
+                              <i class="comic__tag-icon fa-solid fa-tag"></i>
+                              <span class="comic__tag-text"> Drama </span>
+                            </div>
+                            <div class="conmic__tag-list">
+                              <i class="comic__tag-icon fa-solid fa-tag"></i>
+                              <span class="comic__tag-text">Học đường</span>
+                            </div>
+                          </div>
+                          <p class="comic__text-clone">
+                            Kaiden - Một người dùng có khả năng bí ẩn ẩn giấu
+                            bên trong cơ thể của một con mèo đường phố. Anh ta
+                            sau đó được Jiwoo nhặt lên sau khi bị thương sau một
+                            trận chiến với người dùng khả năng khác. Anh ta có
+                            một tính cách bướng bỉnh và hách dịch. Jiwoo - một
+                            cậu học sinh trung học năng động và hay nói chuyện,
+                            yêu mèo. Anh ấy rất tốt bụng và dường như cũng có
+                            một khả năng đặc biệt.
+                          </p>
+                        </div>
+                        <div class="comic__button">Đọc truyện</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="card mb-5"
+                    style="max-width: 576px; height: 168px"
+                  >
+                    <div class="row">
+                      <div class="col-3">
+                        <img
+                          src="./assets/img/recomment/9.jpg"
+                          alt="..."
+                          class="comic-recomment__image"
+                        />
+                      </div>
+                      <div class="col-9">
+                        <div class="comic__body card-body">
+                          <div class="comic__heading card-title text-muted">
+                            <h5 class="comic__chap">306 Chương</h5>
+                            <div class="comic__views">
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-star"></i>
+                                5
+                              </div>
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-eye"></i>
+                                17,467,954
+                              </div>
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-person-walking"></i>
+                                37,089
+                              </div>
+                            </div>
+                          </div>
+                          <h1 class="comic__text">Võ Luyện Đỉnh Phong</h1>
+                          <div class="comic__tag">
+                            <div class="conmic__tag-list">
+                              <i class="comic__tag-icon fa-solid fa-tag"></i>
+                              <span class="comic__tag-text"> Drama </span>
+                            </div>
+                            <div class="conmic__tag-list">
+                              <i class="comic__tag-icon fa-solid fa-tag"></i>
+                              <span class="comic__tag-text">Học đường</span>
+                            </div>
+                          </div>
+                          <p class="comic__text-clone">
+                            Kaiden - Một người dùng có khả năng bí ẩn ẩn giấu
+                            bên trong cơ thể của một con mèo đường phố. Anh ta
+                            sau đó được Jiwoo nhặt lên sau khi bị thương sau một
+                            trận chiến với người dùng khả năng khác. Anh ta có
+                            một tính cách bướng bỉnh và hách dịch. Jiwoo - một
+                            cậu học sinh trung học năng động và hay nói chuyện,
+                            yêu mèo. Anh ấy rất tốt bụng và dường như cũng có
+                            một khả năng đặc biệt.
+                          </p>
+                        </div>
+                        <div class="comic__button">Đọc truyện</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="card mb-5"
+                    style="max-width: 576px; height: 168px"
+                  >
+                    <div class="row">
+                      <div class="col-3">
+                        <img
+                          src="./assets/img/recomment/10.jpg"
+                          alt="..."
+                          class="comic-recomment__image"
+                        />
+                      </div>
+                      <div class="col-9">
+                        <div class="comic__body card-body">
+                          <div class="comic__heading card-title text-muted">
+                            <h5 class="comic__chap">306 Chương</h5>
+                            <div class="comic__views">
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-star"></i>
+                                5
+                              </div>
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-eye"></i>
+                                17,467,954
+                              </div>
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-person-walking"></i>
+                                37,089
+                              </div>
+                            </div>
+                          </div>
+                          <h1 class="comic__text">
+                            Bạn Học Của Tôi Là Lính Đánh Thuê
+                          </h1>
+                          <div class="comic__tag">
+                            <div class="conmic__tag-list">
+                              <i class="comic__tag-icon fa-solid fa-tag"></i>
+                              <span class="comic__tag-text"> Drama </span>
+                            </div>
+                            <div class="conmic__tag-list">
+                              <i class="comic__tag-icon fa-solid fa-tag"></i>
+                              <span class="comic__tag-text">Học đường</span>
+                            </div>
+                          </div>
+                          <p class="comic__text-clone">
+                            Kaiden - Một người dùng có khả năng bí ẩn ẩn giấu
+                            bên trong cơ thể của một con mèo đường phố. Anh ta
+                            sau đó được Jiwoo nhặt lên sau khi bị thương sau một
+                            trận chiến với người dùng khả năng khác. Anh ta có
+                            một tính cách bướng bỉnh và hách dịch. Jiwoo - một
+                            cậu học sinh trung học năng động và hay nói chuyện,
+                            yêu mèo. Anh ấy rất tốt bụng và dường như cũng có
+                            một khả năng đặc biệt.
+                          </p>
+                        </div>
+                        <div class="comic__button">Đọc truyện</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-12">
+              <div class="footer-heading">
+                <hr class="line theme-dark" />
+
+                <div class="footer-heading__list">
+                  <span
+                    ><i
+                      class="footer-heading__icon fa-solid fa-chevron-left"
+                    ></i
+                  ></span>
+                  <span
+                    ><i
+                      class="footer-heading__icon fa-solid fa-chevron-right"
+                    ></i
+                  ></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END COMIC PROPOSE -->
+
+      <!-- COMIC NEW -->
+      <div class="container-new">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xl-12">
+              <div class="heading-topic">
+                <div class="heading-title">Truyện mới</div>
+                <hr class="line theme-dark" />
+              </div>
+            </div>
+            <!-- comic new -->
+            <div class="comic-recomment col-xl-12">
+              <div class="row">
+                <div class="col-xl-6 col-sm-12">
+                  <div
+                    class="card mb-5"
+                    style="max-width: 576px; height: 168px"
+                  >
+                    <div class="row">
+                      <div class="col-3">
+                        <img
+                          src="./assets/img/comic_new/1.jpg"
+                          alt="..."
+                          class="comic-recomment__image"
+                        />
+                      </div>
+                      <div class="col-9">
+                        <div class="comic__body card-body">
+                          <div class="comic__heading card-title text-muted">
+                            <h5 class="comic__chap">306 Chương</h5>
+                            <div class="comic__views">
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-star"></i>
+                                5
+                              </div>
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-eye"></i>
+                                17,467,954
+                              </div>
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-person-walking"></i>
+                                37,089
+                              </div>
+                            </div>
+                          </div>
+                          <h1 class="comic__text">Hoá Thân Thành Mèo</h1>
+                          <div class="comic__tag">
+                            <div class="conmic__tag-list">
+                              <i class="comic__tag-icon fa-solid fa-tag"></i>
+                              <span class="comic__tag-text"> Drama </span>
+                            </div>
+                            <div class="conmic__tag-list">
+                              <i class="comic__tag-icon fa-solid fa-tag"></i>
+                              <span class="comic__tag-text">Học đường</span>
+                            </div>
+                          </div>
+                          <p class="comic__text-clone">
+                            Kaiden - Một người dùng có khả năng bí ẩn ẩn giấu
+                            bên trong cơ thể của một con mèo đường phố. Anh ta
+                            sau đó được Jiwoo nhặt lên sau khi bị thương sau một
+                            trận chiến với người dùng khả năng khác. Anh ta có
+                            một tính cách bướng bỉnh và hách dịch. Jiwoo - một
+                            cậu học sinh trung học năng động và hay nói chuyện,
+                            yêu mèo. Anh ấy rất tốt bụng và dường như cũng có
+                            một khả năng đặc biệt.
+                          </p>
+                        </div>
+                        <div class="comic__button">Đọc truyện</div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- card -->
+                  <div
+                    class="card mb-5"
+                    style="max-width: 576px; height: 168px"
+                  >
+                    <div class="row">
+                      <div class="col-3">
+                        <img
+                          src="./assets/img/comic_new/2.jpg"
+                          alt="..."
+                          class="comic-recomment__image"
+                        />
+                      </div>
+                      <div class="col-9">
+                        <div class="comic__body card-body">
+                          <div class="comic__heading card-title text-muted">
+                            <h5 class="comic__chap">215 Chương</h5>
+                            <div class="comic__views">
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-star"></i>
+                                5
+                              </div>
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-eye"></i>
+                                37,774,721
+                              </div>
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-person-walking"></i>
+                                37,089
+                              </div>
+                            </div>
+                          </div>
+                          <h1 class="comic__text">Nano Ma Thần</h1>
+                          <div class="comic__tag">
+                            <div class="conmic__tag-list">
+                              <i class="comic__tag-icon fa-solid fa-tag"></i>
+                              <span class="comic__tag-text"> Manhwa </span>
+                            </div>
+                            <div class="conmic__tag-list">
+                              <i class="comic__tag-icon fa-solid fa-tag"></i>
+                              <span class="comic__tag-text">Võ Thuật</span>
+                            </div>
+                          </div>
+                          <p class="comic__text-clone">
+                            (Nano Machine)Tân bình mới trong làng truyện tranh
+                            Võ hiệp Hàn Quốc, trình làng mới được 3 tuần mà đã
+                            được leo lên Top 3 tìm kiếm trong tuần. Được chuyển
+                            thể từ cuốn siêu tiểu thuyết về võ hiệp viễn tưởng
+                            trên mạng Nano Ma Thần từng gây bão năm 2017. Câu
+                            chuyện về Đệ Nhị Thiên Ma - Thiên Như Vân, người sau
+                            này sẽ viết lên những truyền kỳ bản thân...
+                          </p>
+                        </div>
+                        <div class="comic__button">Đọc truyện</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="card mb-5"
+                    style="max-width: 576px; height: 168px"
+                  >
+                    <div class="row">
+                      <div class="col-3">
+                        <img
+                          src="./assets/img/comic_new/3.jpg"
+                          alt="..."
+                          class="comic-recomment__image"
+                        />
+                      </div>
+                      <div class="col-9">
+                        <div class="comic__body card-body">
+                          <div class="comic__heading card-title text-muted">
+                            <h5 class="comic__chap">306 Chương</h5>
+                            <div class="comic__views">
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-star"></i>
+                                5
+                              </div>
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-eye"></i>
+                                17,467,954
+                              </div>
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-person-walking"></i>
+                                37,089
+                              </div>
+                            </div>
+                          </div>
+                          <h1 class="comic__text">
+                            Thăng Cấp Vô Hạn Trong Murim
+                          </h1>
+                          <div class="comic__tag">
+                            <div class="conmic__tag-list">
+                              <i class="comic__tag-icon fa-solid fa-tag"></i>
+                              <span class="comic__tag-text"> Phiêu lưu </span>
+                            </div>
+                            <div class="conmic__tag-list">
+                              <i class="comic__tag-icon fa-solid fa-tag"></i>
+                              <span class="comic__tag-text">Viễn tưởng</span>
+                            </div>
+                          </div>
+                          <p class="comic__text-clone">
+                            Tang Yoo Sung, một chiến binh cấp dưới không có tài
+                            năng hoặc trình độ huấn luyện thấp, đã chết trên
+                            chiến trường. Nhưng khi anh ta mở mắt ra và nghĩ đó
+                            là loại thế giới ngầm nào! Anh trở về quá khứ thời
+                            thơ ấu của mình để thay đổi tương lai! Khoảnh khắc
+                            của cái chết, khoảnh khắc trọng đại nhất của cuộc
+                            đời mà bạn tìm thấy! [Chào mừng bạn đến với Murim
+                            Online, một thế giới phát triển vượt bậc khi bạn
+                            thực hiện sứ mệnh và phấn đấu.] [Bạn có muốn đăng
+                            nhập ngay bây giờ không?] [Có / Không] Nhấp. [hoàn
+                            thành. Vậy thì chúc bạn có một khoảng thời gian vui
+                            vẻ.] Không còn ghen tị với những chiếc thìa vàng!
+                            Bởi vì cuộc sống này có một cái giá nhất định cho sự
+                            chăm chỉ! Nhiệm vụ vô hạn! Lên cấp vô hạn! Nỗ lực vô
+                            tận của thìa đất Murim!
+                          </p>
+                        </div>
+                        <div class="comic__button">Đọc truyện</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="card mb-5"
+                    style="max-width: 576px; height: 168px"
+                  >
+                    <div class="row">
+                      <div class="col-3">
+                        <img
+                          src="./assets/img/comic_new/4.jpg"
+                          alt="..."
+                          class="comic-recomment__image"
+                        />
+                      </div>
+                      <div class="col-9">
+                        <div class="comic__body card-body">
+                          <div class="comic__heading card-title text-muted">
+                            <h5 class="comic__chap">306 Chương</h5>
+                            <div class="comic__views">
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-star"></i>
+                                5
+                              </div>
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-eye"></i>
+                                17,467,954
+                              </div>
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-person-walking"></i>
+                                37,089
+                              </div>
+                            </div>
+                          </div>
+                          <h1 class="comic__text">Cuộc Chiến Trong Tòa Tháp</h1>
+                          <div class="comic__tag">
+                            <div class="conmic__tag-list">
+                              <i class="comic__tag-icon fa-solid fa-tag"></i>
+                              <span class="comic__tag-text"> Drama </span>
+                            </div>
+                            <div class="conmic__tag-list">
+                              <i class="comic__tag-icon fa-solid fa-tag"></i>
+                              <span class="comic__tag-text">Học đường</span>
+                            </div>
+                          </div>
+                          <p class="comic__text-clone">
+                            Kaiden - Một người dùng có khả năng bí ẩn ẩn giấu
+                            bên trong cơ thể của một con mèo đường phố. Anh ta
+                            sau đó được Jiwoo nhặt lên sau khi bị thương sau một
+                            trận chiến với người dùng khả năng khác. Anh ta có
+                            một tính cách bướng bỉnh và hách dịch. Jiwoo - một
+                            cậu học sinh trung học năng động và hay nói chuyện,
+                            yêu mèo. Anh ấy rất tốt bụng và dường như cũng có
+                            một khả năng đặc biệt.
+                          </p>
+                        </div>
+                        <div class="comic__button">Đọc truyện</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="card mb-5"
+                    style="max-width: 576px; height: 168px"
+                  >
+                    <div class="row">
+                      <div class="col-3">
+                        <img
+                          src="./assets/img/comic_new/5.jpg"
+                          alt="..."
+                          class="comic-recomment__image"
+                        />
+                      </div>
+                      <div class="col-9">
+                        <div class="comic__body card-body">
+                          <div class="comic__heading card-title text-muted">
+                            <h5 class="comic__chap">131 Chương</h5>
+                            <div class="comic__views">
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-star"></i>
+                                5
+                              </div>
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-eye"></i>
+                                17,467,954
+                              </div>
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-person-walking"></i>
+                                37,089
+                              </div>
+                            </div>
+                          </div>
+                          <h1 class="comic__text">
+                            Hoa Sơn Phái Tái Xuất Giang Hồ
+                          </h1>
+                          <div class="comic__tag">
+                            <div class="conmic__tag-list">
+                              <i class="comic__tag-icon fa-solid fa-tag"></i>
+                              <span class="comic__tag-text"> Drama </span>
+                            </div>
+                            <div class="conmic__tag-list">
+                              <i class="comic__tag-icon fa-solid fa-tag"></i>
+                              <span class="comic__tag-text">Học đường</span>
+                            </div>
+                          </div>
+                          <p class="comic__text-clone">
+                            Kaiden - Một người dùng có khả năng bí ẩn ẩn giấu
+                            bên trong cơ thể của một con mèo đường phố. Anh ta
+                            sau đó được Jiwoo nhặt lên sau khi bị thương sau một
+                            trận chiến với người dùng khả năng khác. Anh ta có
+                            một tính cách bướng bỉnh và hách dịch. Jiwoo - một
+                            cậu học sinh trung học năng động và hay nói chuyện,
+                            yêu mèo. Anh ấy rất tốt bụng và dường như cũng có
+                            một khả năng đặc biệt.
+                          </p>
+                        </div>
+                        <div class="comic__button">Đọc truyện</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-6 col-sm-12">
+                  <div
+                    class="card mb-5"
+                    style="max-width: 576px; height: 168px"
+                  >
+                    <div class="row">
+                      <div class="col-3">
+                        <img
+                          src="./assets/img/comic_new/6.jpg"
+                          alt="..."
+                          class="comic-recomment__image"
+                        />
+                      </div>
+                      <div class="col-9">
+                        <div class="comic__body card-body">
+                          <div class="comic__heading card-title text-muted">
+                            <h5 class="comic__chap">150 Chương</h5>
+                            <div class="comic__views">
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-star"></i>
+                                5
+                              </div>
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-eye"></i>
+                                17,467,954
+                              </div>
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-person-walking"></i>
+                                37,089
+                              </div>
+                            </div>
+                          </div>
+                          <h1 class="comic__text">Kĩ Sư Bá Nhất Thế Giới</h1>
+                          <div class="comic__tag">
+                            <div class="conmic__tag-list">
+                              <i class="comic__tag-icon fa-solid fa-tag"></i>
+                              <span class="comic__tag-text"> Hành động </span>
+                            </div>
+                            <div class="conmic__tag-list">
+                              <i class="comic__tag-icon fa-solid fa-tag"></i>
+                              <span class="comic__tag-text">Hài hước</span>
+                            </div>
+                          </div>
+                          <p class="comic__text-clone">
+                            Kim Suho, vốn là một kỹ sư xây dựng, đã trở thành
+                            Quý tộc trong một cuốn tiểu thuyết. Vậy thì sao? Bất
+                            động sản của tôi sắp hỏng? Sau đó, nó phải được lưu.
+                            Để thiết kế, xây dựng và bán. Cơ hội đặc biệt được
+                            chờ đợi trên khắp lục địa! Giao thông hoàn hảo, khu
+                            giáo dục cao nhất, khu rừng dễ chịu và một cuộc sống
+                            bất động sản cao cấp một cửa bên Baron Frontera mà
+                            mọi người đã chờ đợi. Một hợp đồng trên cơ sở ai đến
+                            trước phục vụ trước!
+                          </p>
+                        </div>
+                        <div class="comic__button">Đọc truyện</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="card mb-5"
+                    style="max-width: 576px; height: 168px"
+                  >
+                    <div class="row">
+                      <div class="col-3">
+                        <img
+                          src="./assets/img/comic_new/7.jpg"
+                          alt="..."
+                          class="comic-recomment__image"
+                        />
+                      </div>
+                      <div class="col-9">
+                        <div class="comic__body card-body">
+                          <div class="comic__heading card-title text-muted">
+                            <h5 class="comic__chap">306 Chương</h5>
+                            <div class="comic__views">
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-star"></i>
+                                5
+                              </div>
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-eye"></i>
+                                17,467,954
+                              </div>
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-person-walking"></i>
+                                37,089
+                              </div>
+                            </div>
+                          </div>
+                          <h1 class="comic__text">Đại Quản Gia Là Ma Hoàng</h1>
+                          <div class="comic__tag">
+                            <div class="conmic__tag-list">
+                              <i class="comic__tag-icon fa-solid fa-tag"></i>
+                              <span class="comic__tag-text"> Drama </span>
+                            </div>
+                            <div class="conmic__tag-list">
+                              <i class="comic__tag-icon fa-solid fa-tag"></i>
+                              <span class="comic__tag-text">Học đường</span>
+                            </div>
+                          </div>
+                          <p class="comic__text-clone">
+                            Kaiden - Một người dùng có khả năng bí ẩn ẩn giấu
+                            bên trong cơ thể của một con mèo đường phố. Anh ta
+                            sau đó được Jiwoo nhặt lên sau khi bị thương sau một
+                            trận chiến với người dùng khả năng khác. Anh ta có
+                            một tính cách bướng bỉnh và hách dịch. Jiwoo - một
+                            cậu học sinh trung học năng động và hay nói chuyện,
+                            yêu mèo. Anh ấy rất tốt bụng và dường như cũng có
+                            một khả năng đặc biệt.
+                          </p>
+                        </div>
+                        <div class="comic__button">Đọc truyện</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="card mb-5"
+                    style="max-width: 576px; height: 168px"
+                  >
+                    <div class="row">
+                      <div class="col-3">
+                        <img
+                          src="./assets/img/comic_new/8.jpg"
+                          alt="..."
+                          class="comic-recomment__image"
+                        />
+                      </div>
+                      <div class="col-9">
+                        <div class="comic__body card-body">
+                          <div class="comic__heading card-title text-muted">
+                            <h5 class="comic__chap">306 Chương</h5>
+                            <div class="comic__views">
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-star"></i>
+                                5
+                              </div>
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-eye"></i>
+                                17,467,954
+                              </div>
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-person-walking"></i>
+                                37,089
+                              </div>
+                            </div>
+                          </div>
+                          <h1 class="comic__text">
+                            Phép Thuật Của Người Trùng Sinh Nên Đặc Biệt
+                          </h1>
+                          <div class="comic__tag">
+                            <div class="conmic__tag-list">
+                              <i class="comic__tag-icon fa-solid fa-tag"></i>
+                              <span class="comic__tag-text"> Drama </span>
+                            </div>
+                            <div class="conmic__tag-list">
+                              <i class="comic__tag-icon fa-solid fa-tag"></i>
+                              <span class="comic__tag-text">Học đường</span>
+                            </div>
+                          </div>
+                          <p class="comic__text-clone">
+                            Kaiden - Một người dùng có khả năng bí ẩn ẩn giấu
+                            bên trong cơ thể của một con mèo đường phố. Anh ta
+                            sau đó được Jiwoo nhặt lên sau khi bị thương sau một
+                            trận chiến với người dùng khả năng khác. Anh ta có
+                            một tính cách bướng bỉnh và hách dịch. Jiwoo - một
+                            cậu học sinh trung học năng động và hay nói chuyện,
+                            yêu mèo. Anh ấy rất tốt bụng và dường như cũng có
+                            một khả năng đặc biệt.
+                          </p>
+                        </div>
+                        <div class="comic__button">Đọc truyện</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="card mb-5"
+                    style="max-width: 576px; height: 168px"
+                  >
+                    <div class="row">
+                      <div class="col-3">
+                        <img
+                          src="./assets/img/comic_new/9.jpg"
+                          alt="..."
+                          class="comic-recomment__image"
+                        />
+                      </div>
+                      <div class="col-9">
+                        <div class="comic__body card-body">
+                          <div class="comic__heading card-title text-muted">
+                            <h5 class="comic__chap">306 Chương</h5>
+                            <div class="comic__views">
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-star"></i>
+                                5
+                              </div>
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-eye"></i>
+                                17,467,954
+                              </div>
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-person-walking"></i>
+                                37,089
+                              </div>
+                            </div>
+                          </div>
+                          <h1 class="comic__text">Võ Luyện Đỉnh Phong</h1>
+                          <div class="comic__tag">
+                            <div class="conmic__tag-list">
+                              <i class="comic__tag-icon fa-solid fa-tag"></i>
+                              <span class="comic__tag-text"> Drama </span>
+                            </div>
+                            <div class="conmic__tag-list">
+                              <i class="comic__tag-icon fa-solid fa-tag"></i>
+                              <span class="comic__tag-text">Học đường</span>
+                            </div>
+                          </div>
+                          <p class="comic__text-clone">
+                            Kaiden - Một người dùng có khả năng bí ẩn ẩn giấu
+                            bên trong cơ thể của một con mèo đường phố. Anh ta
+                            sau đó được Jiwoo nhặt lên sau khi bị thương sau một
+                            trận chiến với người dùng khả năng khác. Anh ta có
+                            một tính cách bướng bỉnh và hách dịch. Jiwoo - một
+                            cậu học sinh trung học năng động và hay nói chuyện,
+                            yêu mèo. Anh ấy rất tốt bụng và dường như cũng có
+                            một khả năng đặc biệt.
+                          </p>
+                        </div>
+                        <div class="comic__button">Đọc truyện</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="card mb-5"
+                    style="max-width: 576px; height: 168px"
+                  >
+                    <div class="row">
+                      <div class="col-3">
+                        <img
+                          src="./assets/img/comic_new/10.jpg"
+                          alt="..."
+                          class="comic-recomment__image"
+                        />
+                      </div>
+                      <div class="col-9">
+                        <div class="comic__body card-body">
+                          <div class="comic__heading card-title text-muted">
+                            <h5 class="comic__chap">306 Chương</h5>
+                            <div class="comic__views">
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-star"></i>
+                                5
+                              </div>
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-eye"></i>
+                                17,467,954
+                              </div>
+                              <div class="comic__views-icon">
+                                <i class="fa-solid fa-person-walking"></i>
+                                37,089
+                              </div>
+                            </div>
+                          </div>
+                          <h1 class="comic__text">
+                            Bạn Học Của Tôi Là Lính Đánh Thuê
+                          </h1>
+                          <div class="comic__tag">
+                            <div class="conmic__tag-list">
+                              <i class="comic__tag-icon fa-solid fa-tag"></i>
+                              <span class="comic__tag-text"> Drama </span>
+                            </div>
+                            <div class="conmic__tag-list">
+                              <i class="comic__tag-icon fa-solid fa-tag"></i>
+                              <span class="comic__tag-text">Học đường</span>
+                            </div>
+                          </div>
+                          <p class="comic__text-clone">
+                            Kaiden - Một người dùng có khả năng bí ẩn ẩn giấu
+                            bên trong cơ thể của một con mèo đường phố. Anh ta
+                            sau đó được Jiwoo nhặt lên sau khi bị thương sau một
+                            trận chiến với người dùng khả năng khác. Anh ta có
+                            một tính cách bướng bỉnh và hách dịch. Jiwoo - một
+                            cậu học sinh trung học năng động và hay nói chuyện,
+                            yêu mèo. Anh ấy rất tốt bụng và dường như cũng có
+                            một khả năng đặc biệt.
+                          </p>
+                        </div>
+                        <div class="comic__button">Đọc truyện</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end comic new -->
+            <div class="col-xl-12">
+              <div class="footer-heading">
+                <hr class="line theme-dark" />
+
+                <div class="footer-heading__list">
+                  <span
+                    ><i
+                      class="footer-heading__icon fa-solid fa-chevron-left"
+                    ></i
+                  ></span>
+                  <span
+                    ><i
+                      class="footer-heading__icon fa-solid fa-chevron-right"
+                    ></i
+                  ></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END COMIC NEW -->
+      <footer class="footer">
+        <div class="container-fluid footer__content">
+          <div class="row mt-4">
+            <div class="col-xl-6 col-md-6 col-sm-12">
+              <p class="footer__text">Copyright 2024 - Goc Truyen Tranh</p>
+              <h5 class="footer__text">Email : Omachi1289@gmail.com</h5>
+              <p class="footer__text">Design by Quang Nguyen</p>
+            </div>
+            <div class="col-xl-6 col-md-6 col-sm-12">
+              <div class="footer__social">
+                <div class="footer__social-ava">
+                  <img src="./assets/img/unnamed.jpg" alt="" />
+                </div>
+                <div class="footer_social-contact">
+                  <p class="footer__social-text">Góc truyện tranh</p>
+                  <div class="footer__social-button">
+                    <i class="fa-brands fa-square-facebook"></i>Theo dõi trang
+                  </div>
+                  <medium class="text-muted">5K lượt thích</medium>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Modal user -->
+    <div class="modal js-modal">
+      <div class="modal__overlay"></div>
+      <div class="modal__body">
+        <div class="modal__inner">
+          <!-- Auth form -->
+          <div class="auth-form">
+            <div class="auth-form__header">
+              <div class="auth-form__heading">Thông tin tài khoản</div>
+              <div class="auth-form__heading-icon">
+                <i class="js-close fa-solid fa-xmark"></i>
+              </div>
+            </div>
+            <div class="auth-form__menu">
+              <ul class="auth-form__menu-list">
+                <li class="auth-form__menu-item">
+                  <i class="auth-form__menu-icon fa-solid fa-user"></i>
+                  <span>Quang Nguyễn</span>
+                </li>
+                <li class="auth-form__menu-item">
+                  <i class="auth-form__menu-icon fa-solid fa-medal"></i>
+                  <span>Cấp độ: 1</span>
+                </li>
+                <li class="auth-form__menu-item">
+                  <i class="auth-form__menu-icon fa-solid fa-envelope"></i>
+                  <span>Thông báo</span>
+                </li>
+                <li class="auth-form__menu-item">
+                  <i class="auth-form__menu-icon fa-solid fa-gear"></i>
+                  <span>Thông tin tài khoản</span>
+                </li>
+                <li class="auth-form__menu-item">
+                  <i class="auth-form__menu-icon fa-solid fa-home"></i>
+                  <span>Trang chủ</span>
+                </li>
+                <li class="auth-form__menu-item">
+                  <i
+                    class="auth-form__menu-icon fa-solid fa-person-walking"
+                  ></i>
+                  <span>Truyện theo dõi</span>
+                </li>
+                <li class="auth-form__menu-item">
+                  <i class="auth-form__menu-icon fa-solid fa-list"></i>
+                  <span>Danh sách</span>
+                </li>
+                <li class="auth-form__menu-item">
+                  <i class="auth-form__menu-icon fa-solid fa-address-book"></i>
+                  <span>Liên hệ</span>
+                </li>
+                <li class="auth-form__menu-item">
+                  <i class="auth-form__menu-icon fa-solid fa-dice-d6"></i>
+                  <span>Chuyển đổi giao diện</span>
+                </li>
+                <li class="auth-form__menu-item">
+                  <i
+                    class="auth-form__menu-icon fa-solid fa-right-from-bracket"
+                  ></i>
+                  <span>Thoát</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
